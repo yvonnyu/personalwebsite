@@ -1,0 +1,190 @@
+.title {
+  padding-bottom: 400px;
+  background: url(images/toronto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+.title a {
+  color: white;
+  font-size: 110px;
+  font-family: "Share", sans-serif;
+  font-weight: normal;
+  text-decoration-line: none;
+  position: absolute;
+  top: 310px;
+  left: 50px;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.title a:hover {
+  opacity: .5;
+}
+
+.title a:active {
+  opacity: 1;
+}
+
+.topnav {
+  text-align: left;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  overflow: visible;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: -10px;
+  padding-right: 20px;
+}
+
+.topnav a {
+  font-size: 35px;
+  color: white;
+  font-family: "Share", sans-serif;
+  text-decoration-line: none;
+  padding-left: 30px;
+}
+
+.topnav a:hover {
+  /* color: rgb(255, 252, 170); */
+  font-weight: bold;
+}
+
+
+.topnav a:focus {
+  color: lightgrey;
+}
+
+.introduction h1 {
+  font-family: "Share", sans-serif;
+  padding-left: 250px;
+  font-size: 60px;
+  color: black;
+
+}
+
+.introduction p {
+
+  position: relative;
+  font-family: "Share", sans-serif;
+  padding-left: 250px;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 2em;
+  margin-right: 650px;
+  width: 500px;
+}
+
+.goose img {
+  height: 500px;
+  position: absolute;
+  left: 900px;
+  top: 620px;
+}
+
+.pictures {
+  background-color: black;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+.pictures img {
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 75px;
+  margin-left: 120px;
+  border: 20px solid white;
+}
+/*  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+
+}
+
+.pictures img:hover {
+  -webkit-filter: blur(5px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(5px);
+}*/
+
+.pictures a {
+  font-size: 48px;
+  font-family: "Share", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  padding-top: 160px;
+  padding-left: 205px;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+
+}
+
+.pictures a:hover {
+  opacity: 1;
+}
+
+.pictures a:active {
+  font-weight: normal;
+}
+
+
+.pictures p {
+  font-family: "Share", sans-serif;
+  color: white;
+  font-size: 36px;
+  margin-left: 120px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+.food {
+  position: relative;
+  left: 500px;
+}
+
+.academic {
+  position: relative;
+  left: 930px;
+}
+
+.contact {
+  position: relative;
+  top: -25px;
+  padding-top: 50px;
+  margin-left: 475px;
+  margin-right: -10px;
+  margin-bottom: 50px;
+  padding-bottom: fill;
+
+}
+
+p {
+  font-family: "Share", sans-serif;
+  color:  black;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.contact a {
+  padding-left: 100px;
+}
+
+.contact img {
+  width: 5%;
+}
